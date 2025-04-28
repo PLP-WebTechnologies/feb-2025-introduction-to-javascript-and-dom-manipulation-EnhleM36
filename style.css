@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
+
+/* General container style */
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Specific containers for extra style */
+.header-container {
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.about-container {
+    background-color: #f9fbe7;
+}
+
+.concepts-container {
+    background-color: #e8f5e9;
+}
+
+.techniques-container {
+    background-color: #fff3e0;
+}
+
+.footer-container {
+    background-color: #c8e6c9;
+    text-align: center;
+}
+
+/* Nav styling */
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+/* Button styling */
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+/* Responsive image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+/* Scroll Animation Styles */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
